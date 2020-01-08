@@ -1,0 +1,9 @@
+{
+	"Service": "/FirstMDKApp/Services/FirstMDKApp.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/FirstMDKApp/Actions/Service/DownloadOffline.action",
+	"OnFailure": "/FirstMDKApp/Actions/Service/SyncFailureMessage.action"
+}

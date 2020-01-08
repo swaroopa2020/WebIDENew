@@ -1,0 +1,38 @@
+{
+	"Caption": "Customers",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "{Address/Street}",
+						"DetailImageIsCircular": false,
+						"Footnote": "{City}",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "{PhoneNumber}",
+						"Subhead": "{LastName}",
+						"SubstatusText": "{Country}",
+						"Title": "{FirstName}"
+					},
+					"Search": {
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "Customers",
+						"QueryOptions": "",
+						"ReadLink": "",
+						"Service": "/FirstMDKApp/Services/FirstMDKApp.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Customers",
+	"_Type": "Page"
+}

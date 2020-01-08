@@ -1,0 +1,15 @@
+{
+	"Service": "/FirstMDKApp/Services/FirstMDKApp.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "DownLoading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/FirstMDKApp/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/FirstMDKApp/Actions/Service/InitializeOfflineFailureMessage.action"
+}

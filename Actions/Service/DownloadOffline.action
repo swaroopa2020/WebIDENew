@@ -1,0 +1,13 @@
+{
+	"Service": "/FirstMDKApp/Services/FirstMDKApp.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/FirstMDKApp/Actions/Service/SyncSuccessMessage.action",
+	"OnFailure": "/FirstMDKApp/Actions/Service/SyncFailureMessage.action"
+}

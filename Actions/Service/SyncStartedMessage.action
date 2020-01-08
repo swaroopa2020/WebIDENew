@@ -1,0 +1,9 @@
+{
+	"Animated": true,
+	"Duration": 2,
+	"Message": "Sync Started",
+	"IsIconHidden": true,
+	"_Type": "Action.Type.ToastMessage",
+	"OnSuccess": "/FirstMDKApp/Actions/Service/UploadOffline.action",
+	"OnFailure": "/FirstMDKApp/Actions/Service/SyncFailureMessage.action"
+}
